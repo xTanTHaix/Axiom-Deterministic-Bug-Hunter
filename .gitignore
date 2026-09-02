@@ -1,0 +1,85 @@
+# Python bytecode & packages
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+myenv/
+central_venv/
+
+# Testing & Coverage
+.pytest_cache/
+.hypothesis/
+.htmlcov/
+.coverage
+coverage.xml
+*.orig
+
+# Tree-sitter WASM files
+*.wasm
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Audit & Log files
+audit_stats.json
+dpo_samples.json
+*.log
+logs/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.kiro/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+.md/
+.tmp.driveupload/
+.tmp.drivedownload/
+
+# Environment Configuration
+.env
+
+# Generated Output / Cache
+reports/
+outputs/
+temp/
+.axiom_cache/
+benchmark_results/
+fix_suggestions/
+axiom_config/
+feedback.json
+mcp-supervisor/

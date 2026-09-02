@@ -1,0 +1,142 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "axiom-aegis"
+version = "3.0.0"
+description = "Ultimate Pure Deterministic Bug Hunter - Multi-Strategy Convergence Architecture"
+requires-python = ">=3.10"
+authors = [
+    {name = "xTanTHaix"}
+]
+maintainers = [
+    {name = "xTanTHaix"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Debuggers",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Testing",
+]
+keywords = [
+    "python",
+    "security-audit",
+    "bug-hunter",
+    "static-analysis",
+    "dynamic-analysis",
+    "sast",
+    "vulnerability-scanner",
+    "ast",
+    "code-quality",
+    "deterministic",
+    "developer-tools",
+    "cli",
+    "tamper-evident",
+    "merkle-tree",
+    "pytest",
+    "security-tools",
+    "call-graph",
+    "tree-sitter",
+    "offline",
+    "linter",
+]
+dependencies = [
+    "tree-sitter>=0.21.0",
+    "tree-sitter-python>=0.21.0",
+    "hypothesis>=6.100.0",
+    "locust>=2.0.0",
+    "pytest>=8.0.0",
+    "pytest-cov>=4.0.0",
+    "mutmut>=3.0.0",
+]
+
+[project.scripts]
+axiom = "axiom.cli:main"
+
+[project.optional-dependencies]
+# Development dependencies
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.0.0",
+    "mutmut>=3.0.0",
+    "black>=24.0.0",
+    "flake8>=7.0.0",
+    "mypy>=1.0.0",
+]
+# GUI dependencies (optional)
+gui = [
+    "customtkinter>=5.2.0",
+    "textual>=8.0.0",
+]
+# API dependencies (optional)
+api = [
+    "flask>=3.0.0",
+    "flask-cors>=4.0.0",
+]
+# Full feature set (v3.0)
+full = [
+    "tree-sitter>=0.21.0",
+    "tree-sitter-python>=0.21.0",
+    "hypothesis>=6.100.0",
+    "locust>=2.0.0",
+    "pytest>=8.0.0",
+    "pytest-cov>=4.0.0",
+    "mutmut>=3.0.0",
+    "customtkinter>=5.2.0",
+    "textual>=8.0.0",
+    "flask>=3.0.0",
+    "flask-cors>=4.0.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["axiom*"]
+exclude = ["myenv*"]
+
+[tool.setuptools.package-data]
+axiom = [
+    "*.pyi",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+addopts = [
+    "-v",
+    "--strict-markers",
+    "--strict-config",
+]
+filterwarnings = [
+    "ignore::pytest.PytestAssertRewriteWarning",
+]
+
+[tool.coverage.run]
+source = ["axiom"]
+branch = true
+omit = [
+    "tests/*",
+    "*/__main__.py",
+]
+
+[tool.black]
+line-length = 100
+target-version = ['py310', 'py311', 'py312']
+
+[tool.flake8]
+max-line-length = 100
+ignore = ["E203", "W503"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+ignore_missing_imports = true

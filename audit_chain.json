@@ -1,0 +1,2222 @@
+[
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:10.612376",
+    "event_id": "analysis_cd65f1b37089850e",
+    "metadata": {
+      "file_path": "axiom\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "5f44410940db9e780440751187033758399f1ffa32f22e03635dbf03294b8786"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:10.621290",
+    "event_id": "analysis_cd65f1b37089850e_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "f5c85a90c6d79d547fc8dfcb65b10e837533de9a0f8a0f2b21a5ad0e670a0745"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:10.621805",
+    "event_id": "analysis_9c2a9cdccd403037",
+    "metadata": {
+      "file_path": "axiom\\__main__.py",
+      "function_path": "main"
+    },
+    "hash": "892dc6d79a38153b793817a6cf0260eb7d1ae7b2d327eccfb6b41d231b083397"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:10.624409",
+    "event_id": "analysis_9c2a9cdccd403037_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "61d3b1fb83667919339f74ce930b95f1f66941c0c0f95e30fd08ca69825dfdff"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:10.624920",
+    "event_id": "analysis_e2d66f3a07c7fced",
+    "metadata": {
+      "file_path": "axiom\\cli\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "b565cdbdffbd4bf843ea933cde04dad921aa8b4cc728151a27c10f97762427ec"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:10.670164",
+    "event_id": "analysis_e2d66f3a07c7fced_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "e59a7b35a03e9a9c173df8c146b7661ea76e5df23c685f29a2d26c2db10de124"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:10.671675",
+    "event_id": "analysis_0e41414352685ecb",
+    "metadata": {
+      "file_path": "axiom\\cli\\interactive\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "bd3c40eab939e5fab651656c4a601bd2149588ec41acb211b51356e6fe88559b"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:10.674293",
+    "event_id": "analysis_0e41414352685ecb_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "db38ab424baa9e1290828929f3c186e129b24a897636168c084a8f60e72344c8"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:10.674813",
+    "event_id": "analysis_2d65d6be4fc187b5",
+    "metadata": {
+      "file_path": "axiom\\cli\\interactive\\interactive.py",
+      "function_path": "main"
+    },
+    "hash": "3690a592d5329e1c9b2e7e5c518e425681c272a6119d9ceb65add5122e75e0e0"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:10.782569",
+    "event_id": "analysis_2d65d6be4fc187b5_end",
+    "metadata": {
+      "findings_count": 3,
+      "verification_count": 0
+    },
+    "hash": "df3c6c76ab417dab81a1082fcf9343e85a31534e3dcc2bead846c6af7296d1c3"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:10.783082",
+    "event_id": "analysis_aae40bdc8fbde1a9",
+    "metadata": {
+      "file_path": "axiom\\config\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "1944c31e615f9a435c425a2f728967ac1e2ffc98d03c87fa18b4466b359cc354"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:10.794041",
+    "event_id": "analysis_aae40bdc8fbde1a9_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "6e0a2d3f55a199def7080bacc8a9d721e190833c16c24ac6dca61923da516a2b"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:10.795087",
+    "event_id": "analysis_dc3ea3660d5d9ad7",
+    "metadata": {
+      "file_path": "axiom\\layer1\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "9a531578eaa0ba50b2048f49593cdbca74e48fafeb14f2121a7a05b9be93e00a"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:10.796655",
+    "event_id": "analysis_dc3ea3660d5d9ad7_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "f3c4f810f01d5de295ff00b145ec9c436c9955a4ed6dd75b5fb9687393890c62"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:10.798174",
+    "event_id": "analysis_315cdcc25647499a",
+    "metadata": {
+      "file_path": "axiom\\layer1\\ast_sentinel.py",
+      "function_path": "main"
+    },
+    "hash": "9d6867947071058b0ad141761347f9f98016a3e61f004119c66b1c86a5472567"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:10.902389",
+    "event_id": "analysis_315cdcc25647499a_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "d29362473545e52c352a3c66d5a09f1a91680130c7012d3c5711e3e7f59f4303"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:10.903514",
+    "event_id": "analysis_4f88216c08ea5656",
+    "metadata": {
+      "file_path": "axiom\\layer1\\fuzzer.py",
+      "function_path": "main"
+    },
+    "hash": "02b453c1a3be6e925db2646bb97f8fe513073740d80d6c7476d66661cb7a744c"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:10.909769",
+    "event_id": "analysis_4f88216c08ea5656_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "c6bf73d6c5f7da608c7003ed63e6b2bad34091e28b083453e774535cd254d3c0"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:10.910806",
+    "event_id": "analysis_ce185181ce2cfba6",
+    "metadata": {
+      "file_path": "axiom\\layer1\\load.py",
+      "function_path": "main"
+    },
+    "hash": "e6965cdb2e95a8b8312162a78afaecd7d29f7f3a5588876dc7b49119923ca3ff"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:10.942943",
+    "event_id": "analysis_ce185181ce2cfba6_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "98e34eba0921b215594596d89adeb9d62201f6b004783c5371143477f189b4ed"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:10.944455",
+    "event_id": "analysis_22c9fad7e731c671",
+    "metadata": {
+      "file_path": "axiom\\layer1\\mock_proxy.py",
+      "function_path": "main"
+    },
+    "hash": "7ca42283c4ba54da8f8b088a268829d7764d65926f5f6082ab3b9432afb567d9"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:10.952238",
+    "event_id": "analysis_22c9fad7e731c671_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "b3c2d3237958b487a6339f84e17c6a05df9a42a6baf71fb0dd4168c7dbff57c9"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:10.952747",
+    "event_id": "analysis_9f31c4f60234e2e2",
+    "metadata": {
+      "file_path": "axiom\\layer2\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "5db3cb5f030fdb801ee219eea58a72e15adb56644f8070c91c61d6cc6b1a6490"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:10.955358",
+    "event_id": "analysis_9f31c4f60234e2e2_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "0c89b48effa379a0f7c4b65046f12ac50f4644144defcc9bec4770a7ab4d67bb"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:10.956387",
+    "event_id": "analysis_7d7c1bd7cde93aea",
+    "metadata": {
+      "file_path": "axiom\\layer2\\slicer.py",
+      "function_path": "main"
+    },
+    "hash": "a4824affe37d5623fd7f84eb63c26b0f005b6b8b268a1dccf6d9499a024392dc"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.156191",
+    "event_id": "analysis_7d7c1bd7cde93aea_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "d9f7e06cc5b61a1940c4f6a642cc457a0f1679ac5c93dba53163a568d498850e"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.156191",
+    "event_id": "analysis_4be429123a087f33",
+    "metadata": {
+      "file_path": "axiom\\layer3\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "33c7f52effb61323b9b33aa51c91e62bf13fa65fada85a9741d8cf93527ed0ff"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.160872",
+    "event_id": "analysis_4be429123a087f33_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "0845fc1cc7217c0553c46c2928c105e2190c1803b427c120db77324667f15e95"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.161918",
+    "event_id": "analysis_4c79d94d9a1fe618",
+    "metadata": {
+      "file_path": "axiom\\layer3\\analyzer.py",
+      "function_path": "main"
+    },
+    "hash": "053d284703a3792482a8c2a6c5b0454fa9694e532b033b88ecac41e8b8087b14"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.202638",
+    "event_id": "analysis_4c79d94d9a1fe618_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "451f2f9a23fe76366dd671235ba4cc5f81789046b1ec27f27dd3683dc909df67"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.203664",
+    "event_id": "analysis_01fffc68f0f8e803",
+    "metadata": {
+      "file_path": "axiom\\layer3\\context_analyzer\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "de71edef2652f5ebb55ba4e4fe3afbf6479f6b03c10feef22e21ec27705e43ea"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.206773",
+    "event_id": "analysis_01fffc68f0f8e803_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "d7bd586b681751e0b2a61bd9bbf6ce13c29e736f4e386c0c431e6f98c14040a5"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.207817",
+    "event_id": "analysis_7c5e1aff1320a4d5",
+    "metadata": {
+      "file_path": "axiom\\layer3\\context_analyzer\\context_analyzer.py",
+      "function_path": "main"
+    },
+    "hash": "f8b431351e95b467f65f79ce777d6a4f45feade24cd7e878ba35b2578ee7d6b6"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.528173",
+    "event_id": "analysis_7c5e1aff1320a4d5_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "ca9db6e045e62570ca7a2a8952d5ca7df291eb43d6fd120e923aac4bd413f804"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.529685",
+    "event_id": "analysis_928e6b9bab4710d9",
+    "metadata": {
+      "file_path": "axiom\\layer3\\pattern_miner\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "ac14d2839ed0294f65ffb6ee69ffd8fc7ceb2ff68b5c107138d23a87fd2b5c4f"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.534905",
+    "event_id": "analysis_928e6b9bab4710d9_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "6a026e15ad22beb1453cbded85039a4d8512a331a18352360cb30873e653d11b"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.536489",
+    "event_id": "analysis_16b4bab692f93c50",
+    "metadata": {
+      "file_path": "axiom\\layer3\\pattern_miner\\pattern_miner.py",
+      "function_path": "main"
+    },
+    "hash": "f91bf35b70bd0933f77fa8742144ff12ce28794198add382afef177ec8dd5d65"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.591094",
+    "event_id": "analysis_16b4bab692f93c50_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "42aa1bbe6743007de322aeff98a791c2c7ca2dc976629bed09aeebeb57d3b6eb"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.593424",
+    "event_id": "analysis_208a6ba9a4db8686",
+    "metadata": {
+      "file_path": "axiom\\layer4\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "4b36b2f24d1f464d8d0a4d86d147b86ede11dba93ee2e887769853ab4bed8651"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.597077",
+    "event_id": "analysis_208a6ba9a4db8686_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "640a06d458e5b3505ca78d870ed757f77634e1e1efc66c3338e82d8c778ee4f4"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.598647",
+    "event_id": "analysis_6fe6353619bcd150",
+    "metadata": {
+      "file_path": "axiom\\layer4\\benchmark\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "6ffcc7bfde72624ebf4bb09410cdc3e255b05c4922a1ddd19217423c75abbdee"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.601806",
+    "event_id": "analysis_6fe6353619bcd150_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "ab30c99aeb6c41d4ffc97d4b1c5cd9bace3e02ab66de691ce44f921c454cb597"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.602850",
+    "event_id": "analysis_d3d5991325fe2395",
+    "metadata": {
+      "file_path": "axiom\\layer4\\benchmark\\benchmark.py",
+      "function_path": "main"
+    },
+    "hash": "ea246cfff7e6434a5e4415c529b15dee4e433fb7b8c55585ca5ccd04c95777c2"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.658450",
+    "event_id": "analysis_d3d5991325fe2395_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "c6ec58d78f153fc5ffddc3b01f1ebed4ef4b2e87077fc0259f6b2dff32f4b1f7"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.662278",
+    "event_id": "analysis_ac798481643176a5",
+    "metadata": {
+      "file_path": "axiom\\layer4\\delta.py",
+      "function_path": "main"
+    },
+    "hash": "e0f36db30ce08ce8d5be855cf15f75d5d5d4dcb799f3beb5b17e2bbe2da63910"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.707651",
+    "event_id": "analysis_ac798481643176a5_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "7e7515a03322440a141f4384b50a7c0fe9db8972082a6984845c558d94244df4"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.709774",
+    "event_id": "analysis_1932e85cb038e469",
+    "metadata": {
+      "file_path": "axiom\\layer4\\fix_generator\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "bd9c8e2602838ea8a210b02ab6c49b1bf6f1b61284ae744cb643070da4882237"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.713408",
+    "event_id": "analysis_1932e85cb038e469_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "036a432e19178f14f65468d3982c4c4b0dd0a96fc9e69aca42595e19221b68af"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.714984",
+    "event_id": "analysis_9bb2d769139966d4",
+    "metadata": {
+      "file_path": "axiom\\layer4\\fix_generator\\fix_generator.py",
+      "function_path": "main"
+    },
+    "hash": "a269e3ceec67a1c115255bb96ee9872a0dc62039fe8f295af8a3e463f13fc011"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.750996",
+    "event_id": "analysis_9bb2d769139966d4_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "bae498da9897d40c333a56332e75e245570e52feb1abdfeda569bec8fed47e6d"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.750996",
+    "event_id": "analysis_7d07f080e1529f49",
+    "metadata": {
+      "file_path": "axiom\\layer4\\mock_verifier.py",
+      "function_path": "main"
+    },
+    "hash": "76fc25226fd35f38ea443f15add51f3eb3e1f68c9242688046d4f2c68349b887"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.853189",
+    "event_id": "analysis_7d07f080e1529f49_end",
+    "metadata": {
+      "findings_count": 2,
+      "verification_count": 0
+    },
+    "hash": "c7906c26648835a98b8f4fcde3f05e6dd14b540c517f01c352717eadb13194ef"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.855996",
+    "event_id": "analysis_d78d4d4150aa9313",
+    "metadata": {
+      "file_path": "axiom\\layer4\\orchestrator.py",
+      "function_path": "main"
+    },
+    "hash": "df947a3e282e383b619cd6d1e2c1c0616df3fd42b89ca0677661c1741c4bb9f3"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.888394",
+    "event_id": "analysis_d78d4d4150aa9313_end",
+    "metadata": {
+      "findings_count": 3,
+      "verification_count": 0
+    },
+    "hash": "629221369e0ac67abc88dd4f860869b5b2fe7bbb8d9921d8293f07927ba34791"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.890444",
+    "event_id": "analysis_148babbbe2870f52",
+    "metadata": {
+      "file_path": "axiom\\layer5\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "4752abdea0c6a76352c978dd33a0efcfc9c3e3d543c18e041a4d674650da667e"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:11.894091",
+    "event_id": "analysis_148babbbe2870f52_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "c601416f89e9dd0be72cac382a88bdd7a4439f6f866b9a76fceb11afb40c1d16"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:11.896210",
+    "event_id": "analysis_af9898fc54eb0a3e",
+    "metadata": {
+      "file_path": "axiom\\layer5\\audit.py",
+      "function_path": "main"
+    },
+    "hash": "b5e9fb6b5478bfd60a415df7130bd7e4cab03342378398c592b93ed196c6e9d4"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.192366",
+    "event_id": "analysis_af9898fc54eb0a3e_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "4f3b746ef6bbd6e6e2020954747e16efbeb102f8730dd02f049d9116a794183c"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.194951",
+    "event_id": "analysis_b2e42a0cd639f1ba",
+    "metadata": {
+      "file_path": "axiom\\ui\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "7cdf7eabae821a3e56e5329872196cc664910af0439a3b5098f6407c3d178359"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.199093",
+    "event_id": "analysis_b2e42a0cd639f1ba_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "908af722f865ea5cbfe85d84d8cf8fe3f6f4e2bec650f9f91ddd92c971a59d0f"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.201152",
+    "event_id": "analysis_75a3b2399a3d15f7",
+    "metadata": {
+      "file_path": "axiom\\ui\\app.py",
+      "function_path": "main"
+    },
+    "hash": "1521a84a66f1378cad6c240f0dc34da253030bc6082e4b669e90acb4ecfd624b"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.422538",
+    "event_id": "analysis_75a3b2399a3d15f7_end",
+    "metadata": {
+      "findings_count": 2,
+      "verification_count": 0
+    },
+    "hash": "4c7f5592b092897e8fb715b8af98ef5ab32198a69548d28d83bdfe0c1ba311de"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.425497",
+    "event_id": "analysis_8ec97a686c9ea10d",
+    "metadata": {
+      "file_path": "axiom\\watcher.py",
+      "function_path": "main"
+    },
+    "hash": "a94aeeaa7c7633b0dfa79ac941c9b6b1447c76f35bf44652fa83e8417423d4a2"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.456789",
+    "event_id": "analysis_8ec97a686c9ea10d_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "1cd178c54787782bb4f9046a730863b8c3d09f454910820491aba6ace81fe9fb"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.458832",
+    "event_id": "analysis_fc0f3c45f19ec594",
+    "metadata": {
+      "file_path": "examples\\benchmark_analysis.py",
+      "function_path": "main"
+    },
+    "hash": "2e3078afd0225a3085be98f29b9f80dca0a057447f05e9ae5a09a29ca855bfba"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.467173",
+    "event_id": "analysis_fc0f3c45f19ec594_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "42074b12490826c266041aebbb69d1d553d7bc887cb7db18623565923c0f2a12"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.469245",
+    "event_id": "analysis_9c53b5a71be3f255",
+    "metadata": {
+      "file_path": "examples\\cross_module_analysis.py",
+      "function_path": "main"
+    },
+    "hash": "3ef5b6c7c727cf30991b76e584900564a9e813ce44123ab23a1b5ef8d04dee6b"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.475858",
+    "event_id": "analysis_9c53b5a71be3f255_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "f291b37d5aea9f134516606d063aef1b11c939ff3f97cb71bc3384711a04b837"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.478830",
+    "event_id": "analysis_1f03e65ef0b70d82",
+    "metadata": {
+      "file_path": "examples\\fix_generator.py",
+      "function_path": "main"
+    },
+    "hash": "50c9279d00a75a66a375430d144fcffd296bc9f11427fd215ddef375eaad8d9d"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.493791",
+    "event_id": "analysis_1f03e65ef0b70d82_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "c3fb66ac8badb12c48d77433d86fe5f9797f180db74ba9fd2ca450fe73394791"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.495870",
+    "event_id": "analysis_7da816e434a22998",
+    "metadata": {
+      "file_path": "examples\\full_integration.py",
+      "function_path": "main"
+    },
+    "hash": "59de424f2f0dce9d386b6f41ea9da83f394f55373396d58b561130b4358ff94c"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.507786",
+    "event_id": "analysis_7da816e434a22998_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "47cff6f1349fc7c757d1056a35812a8c243c61f953a1d2a58a5f85a804e75da0"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.509976",
+    "event_id": "analysis_65d7105953a3fc0f",
+    "metadata": {
+      "file_path": "examples\\interactive_mode.py",
+      "function_path": "main"
+    },
+    "hash": "4c9b559bca81def2a7a68432d1147df5c08df41170884ce67fb77c9eaa4a72f0"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.518744",
+    "event_id": "analysis_65d7105953a3fc0f_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "ae5f9adbac6864dbabc0944bda0ffb0d32c0fbe494b5f6368fa0534a96a00d2c"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.520810",
+    "event_id": "analysis_a7e18a575f1d1189",
+    "metadata": {
+      "file_path": "examples\\pattern_mining.py",
+      "function_path": "main"
+    },
+    "hash": "bfabff32bcd61f5df2715a9dd4106e4a6a866c82ca42061781877a7847a4567b"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.529949",
+    "event_id": "analysis_a7e18a575f1d1189_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "2a00633914f906288a5fb0e23889d311b4d14ad5cd569a8129c298b0540d5a78"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.531990",
+    "event_id": "analysis_25b8e2bb9e4753c5",
+    "metadata": {
+      "file_path": "examples\\sample_bugs\\dangerous_calls.py",
+      "function_path": "main"
+    },
+    "hash": "eeb7ca5892e54fa4e3c21f1b9f4ab23b7a34fd1590084ed43691297c079acbae"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.536641",
+    "event_id": "analysis_25b8e2bb9e4753c5_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "ebf4299eeea61697cd50782e125f6be2b8da9c284adf91c653afaa04375bb39c"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.538722",
+    "event_id": "analysis_f2cf30d229b4c4e1",
+    "metadata": {
+      "file_path": "examples\\sample_bugs\\resource_leak.py",
+      "function_path": "main"
+    },
+    "hash": "1a059e921fedf60a0dc0f240ded2ffe1ed4efac518143d6bf94f67970774047a"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.543864",
+    "event_id": "analysis_f2cf30d229b4c4e1_end",
+    "metadata": {
+      "findings_count": 4,
+      "verification_count": 0
+    },
+    "hash": "3ae7cfaa407f7a6f2cd687e12a321619fb4b28947c6ca2636ee07a988efc34e1"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.545905",
+    "event_id": "analysis_a09a0c69f6b96ce5",
+    "metadata": {
+      "file_path": "examples\\sample_bugs\\sql_injection.py",
+      "function_path": "main"
+    },
+    "hash": "792253303a2f8c4e3cff638388e974d7c2a5c6075d6a5cfa79491b6fd038fbb7"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.551078",
+    "event_id": "analysis_a09a0c69f6b96ce5_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "95a88c8be2e37627de8aa59e2bb4814dd837f743bd7155f8c3d45d506417dfcd"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.553143",
+    "event_id": "analysis_80d8f4928207dba5",
+    "metadata": {
+      "file_path": "examples\\usage_examples.py",
+      "function_path": "main"
+    },
+    "hash": "c94d6692c550752c34168258fabf0970664466678bbc6fea5cfa304a9a780e8a"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.580698",
+    "event_id": "analysis_80d8f4928207dba5_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "a7009030ef3aff8137fb6f9007817dfb3f55e6ce19e6faa21aa248f8c0e5fc08"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.584089",
+    "event_id": "analysis_4a21d7d6e17fdc2f",
+    "metadata": {
+      "file_path": "test_imports.py",
+      "function_path": "main"
+    },
+    "hash": "8ff4cdb02b1d8039e2eb3b23af67a2d4bc745d4b1d30902f2538be41720c96e8"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.596053",
+    "event_id": "analysis_4a21d7d6e17fdc2f_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "d99d726e94b8e8e091cc3974d47b72009459904fdfea412527d27723377a7b7d"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.598121",
+    "event_id": "analysis_6d505d000dd87737",
+    "metadata": {
+      "file_path": "tests\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "8361de84ddb4f3e68cbe305a98758f5f3c853698ba64977bc7c618125984af05"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.601742",
+    "event_id": "analysis_6d505d000dd87737_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "3c8636c0ae63a45939caf4cbaea1465c38224e44a129ca5c734c4f32d1f97293"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.603805",
+    "event_id": "analysis_bc729922006c5a42",
+    "metadata": {
+      "file_path": "tests\\test_fuzz_demo.py",
+      "function_path": "main"
+    },
+    "hash": "14bbaa515c5d456ae84d70181e85c9749f4fed259839ee74b9e21c2bec847b8b"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.610538",
+    "event_id": "analysis_bc729922006c5a42_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "aee3b1d5bae12b14ba205e8dc9ea5a4cc524fb0eb40c9a1d0d2b12bb7cf2fb8a"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.612587",
+    "event_id": "analysis_1b943dbd389e6969",
+    "metadata": {
+      "file_path": "tests\\test_imports.py",
+      "function_path": "main"
+    },
+    "hash": "edc41a98327c107facd567d45b4b25c0fcef5715a40f58048ec5da0542f1b67c"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.628892",
+    "event_id": "analysis_1b943dbd389e6969_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "afb4578f37d000a1dc2439e92a594bb6624df61a5f6d4419bc8b14456553f48e"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.630953",
+    "event_id": "analysis_6af97ea059c45dcf",
+    "metadata": {
+      "file_path": "tests\\test_layer1.py",
+      "function_path": "main"
+    },
+    "hash": "37f6c961d7c307a7e13e0d75ec45655b9144acf796ef1364a48e1b99a6318aea"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.649184",
+    "event_id": "analysis_6af97ea059c45dcf_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "587e9a4e60dd122ccda1ec0335f6d390b20eb339a7026ba6362c7db41056a772"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.651739",
+    "event_id": "analysis_ad7f94eab6fe89fe",
+    "metadata": {
+      "file_path": "tests\\test_layer2.py",
+      "function_path": "main"
+    },
+    "hash": "a8c561430fb0f3a18acc17bd928297c667031150733db0d64e1c0dc02e5397ec"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.667958",
+    "event_id": "analysis_ad7f94eab6fe89fe_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "58c7dea9fef730959d3c87fb1226c084a6a5f118f8382ca42328465b9d52e26b"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.671024",
+    "event_id": "analysis_ccc8da55eabafc68",
+    "metadata": {
+      "file_path": "tests\\test_layer3.py",
+      "function_path": "main"
+    },
+    "hash": "11e86a2b8c54378c9849a3d3cb61c2e260776703c053a7b7655ebec10eb50818"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.684475",
+    "event_id": "analysis_ccc8da55eabafc68_end",
+    "metadata": {
+      "findings_count": 2,
+      "verification_count": 0
+    },
+    "hash": "e40eb34a425d8cfe089a5d2cd5ec464223110697aa7364bf02f80913a9f6534d"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.687579",
+    "event_id": "analysis_540e491a2e93ec96",
+    "metadata": {
+      "file_path": "tests\\test_layer4.py",
+      "function_path": "main"
+    },
+    "hash": "1f03a30e5f044a69a444cb6b752fd5dd5ec494fdc6aa6bff222accdcf7786355"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.694324",
+    "event_id": "analysis_540e491a2e93ec96_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "0b9ca421ee926d8cce44b825c133e139cbba8f5c9d19a55dce336d57c5cb348b"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:12.696916",
+    "event_id": "analysis_a8333fdc03148e0e",
+    "metadata": {
+      "file_path": "tests\\test_layer5.py",
+      "function_path": "main"
+    },
+    "hash": "23a0745ce169c26c2bb7a2452a82ace8abec7dcc14228c4997a3501f104cf4ea"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:12.704152",
+    "event_id": "analysis_a8333fdc03148e0e_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "aa56bda8e1f60e1e42107181874b25dd8659b493776af9b78169da6f0a299773"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:33.731928",
+    "event_id": "analysis_ef5ab00c3d56b79a",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\.agents\\m1_auditor_1\\stress_test.py",
+      "function_path": "main"
+    },
+    "hash": "6b22e6b65426cfca8dd87b8cc1f1ccd62b49c7a65882447058fea721dda60a6e"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:33.749755",
+    "event_id": "analysis_ef5ab00c3d56b79a_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "7f3cc81ad5d50e66790c4ffb7199a6f0cb860cc54126869ec710053b2832cd59"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:33.752294",
+    "event_id": "analysis_c4d052076e307907",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\.agents\\m1_explorer_1\\test_quote_heal.py",
+      "function_path": "main"
+    },
+    "hash": "e5d894d0deb2ab1b4492c3fef654de448555aa8209cd14c3033d94143cd8bd27"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:33.764653",
+    "event_id": "analysis_c4d052076e307907_end",
+    "metadata": {
+      "findings_count": 2,
+      "verification_count": 0
+    },
+    "hash": "c8c19d3700a3cdce8aef6b8848c146a820bc3d32fbe8dcc8eb337c301718c707"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:33.766714",
+    "event_id": "analysis_c43371a93d74d084",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\.agents\\m1_reviewer_2\\adversarial_probes.py",
+      "function_path": "main"
+    },
+    "hash": "bd76a461dababe9ffc3164b37a56d840583a05009b8abbccc06453d04367146e"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:33.783973",
+    "event_id": "analysis_c43371a93d74d084_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "1c850b26edc8e3b9218ba49760245c64352c64de4329e7dc3f7273d34fa9577e"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:33.786568",
+    "event_id": "analysis_0be7c1259f79b396",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\bridge\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "230c74514f5c3395f7ebf3d940fe84b1f6eed05ec7182c5ce8700429c32b684a"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:33.791212",
+    "event_id": "analysis_0be7c1259f79b396_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "08a61a534cf79657fb2abb75e9b4b6b8bf3d5e269e02c4290d304751a1429b87"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:33.793793",
+    "event_id": "analysis_07cef6206a91e279",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\bridge\\auto_calibrator.py",
+      "function_path": "main"
+    },
+    "hash": "241ab05095383ee8818a83a519b91e0178b795519eb0e2c16577db77d15ff261"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:33.816753",
+    "event_id": "analysis_07cef6206a91e279_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "b1daea2618f5843e272dfb5f12a5ff2ec35ef942ca8fbac425d960675a26819e"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:33.819814",
+    "event_id": "analysis_acd162e082b88e3e",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\bridge\\canonical.py",
+      "function_path": "main"
+    },
+    "hash": "89cb2798d63574db20c830c111567e005149b1eab4c1f1957192702d6675e433"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:33.839248",
+    "event_id": "analysis_acd162e082b88e3e_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "4bcc4e1892e3df35d282d211175c5372ac46bcfce93c71f7f55b6bb802bb1026"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:33.842405",
+    "event_id": "analysis_d13ff21f33dbc28e",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\bridge\\converter.py",
+      "function_path": "main"
+    },
+    "hash": "d02524ecc25e5899b0dac88f8f6884adc00718b9a6cd3a20648e8cb189eb9619"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:33.886046",
+    "event_id": "analysis_d13ff21f33dbc28e_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "adb4e33d3f7902220956e1648e415aa08b37a3fc8a152b84d586e9ca371e365f"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:33.889729",
+    "event_id": "analysis_3ad5c3f517442706",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\bridge\\merger.py",
+      "function_path": "main"
+    },
+    "hash": "8c82ad47f79527977959403585dbc9ceb0a869dabdb4953710c2628f873900d4"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:33.916736",
+    "event_id": "analysis_3ad5c3f517442706_end",
+    "metadata": {
+      "findings_count": 3,
+      "verification_count": 0
+    },
+    "hash": "4cf8a1bfb253ff50f6484815fefa369d60e2fc1b3457dd3909bc72b2c838f645"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:33.919796",
+    "event_id": "analysis_588bedf23146fca2",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\bridge\\tensor_repair.py",
+      "function_path": "main"
+    },
+    "hash": "8399ad68c4cd54d2d0f236bde90b81055284b3a97f51a7879c323e7f89b22dcd"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:33.965383",
+    "event_id": "analysis_588bedf23146fca2_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "c42e2818670601073196a754d14862aac937e9b3ba13a4e853d771c8a582063b"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:33.968421",
+    "event_id": "analysis_591881652aa6d9f9",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\cli.py",
+      "function_path": "main"
+    },
+    "hash": "bc84d48a8f949034f800d43f582c096bfa650667222353aef8be7aa58d45def6"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:33.988193",
+    "event_id": "analysis_591881652aa6d9f9_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "916d27a1dde2e0ca0ba7c2ec52202a278d045e73037ee89be2b6f3ccf6a44ef8"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:33.992125",
+    "event_id": "analysis_fb3f9d2da207ffd3",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\config_loader.py",
+      "function_path": "main"
+    },
+    "hash": "f9424a6f5dd3145427280e8d5e37bf3c9f56c5780904e5ef0956a5851fd76b02"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.006540",
+    "event_id": "analysis_fb3f9d2da207ffd3_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "181c4afad285376e86c13a3b6a394e8c645aab9af0e922a1d47f0c77287f572e"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.009969",
+    "event_id": "analysis_1ab824911f87b767",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\cognitive\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "00590d9be1df66e59165fdccf803731a98042378d457b6a82a95d93cfd28ef3e"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.014603",
+    "event_id": "analysis_1ab824911f87b767_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "99dc32bb4fe8ac9b7cf63fc4dd4c43ca912fbd45992be8f3bd23a5f1c1224696"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.017710",
+    "event_id": "analysis_55481a728fc6d8bc",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\cognitive\\features.py",
+      "function_path": "main"
+    },
+    "hash": "cfde582a10372c584f1c9f314a35a73b506d4fe1bfe39a30d291f8393eb660c9"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.029014",
+    "event_id": "analysis_55481a728fc6d8bc_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "091f99c97e584148346821694ae7ee58827a5f3ff3b12ea7f052d2b8d7bb074c"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.033015",
+    "event_id": "analysis_148ea1e670e8ec2e",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\cognitive\\hopfield.py",
+      "function_path": "main"
+    },
+    "hash": "12e60519b55ba61c2904acee8a10ca2ff12cbc7e6dffcffb5965f11e524e7539"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.059031",
+    "event_id": "analysis_148ea1e670e8ec2e_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "36fe8050623aa1d4c50cee85941115cc77c7674876f3e882c2d5fb761668fb5e"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.062548",
+    "event_id": "analysis_663b878eda4e3f33",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\cognitive\\nano_attn.py",
+      "function_path": "main"
+    },
+    "hash": "bf504841d98a7dcb80249d9d13a2ea8237aef0ebf112485ad81c27d206c7060d"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.075422",
+    "event_id": "analysis_663b878eda4e3f33_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "a6b426cd7303da99d414cf495658e2d7e24cd35aedc65ee90dd9079a2d5f3d16"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.077482",
+    "event_id": "analysis_e4f92cb2f09d4ead",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\cognitive\\plasticity.py",
+      "function_path": "main"
+    },
+    "hash": "666d7a171b375f2e7b851ea0fb223292f7e00d87b68c44fe60d2177745f583e1"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.093861",
+    "event_id": "analysis_e4f92cb2f09d4ead_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "1eff8cb58a66c452b0f359a10ca34338bcef21cf214ae006faa19335a287e8db"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.096935",
+    "event_id": "analysis_0c96d72001134d54",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\cognitive\\router.py",
+      "function_path": "main"
+    },
+    "hash": "b5e821e3ce1a41d3d3b3ed3b91c3a9ce84108d6efabda3c8472b840f20f7a92b"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.118996",
+    "event_id": "analysis_0c96d72001134d54_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "b550d9cced7fb3107ee2646d9664b4cdf2762e7d66bec09ee228b58209a3aeb2"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.122975",
+    "event_id": "analysis_9bfc7e30c65827db",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\cognitive\\scaffold.py",
+      "function_path": "main"
+    },
+    "hash": "0530d910df8eecf9c9a6db522eef280ff2477cad2df544f801571f61c122798f"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.136374",
+    "event_id": "analysis_9bfc7e30c65827db_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "cca757c04b3e414280c3763238b10b43507db426149a9c4f6d5a0e74da667956"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.139451",
+    "event_id": "analysis_1e0c16b5c076f0e4",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\cognitive\\symbolic_tree.py",
+      "function_path": "main"
+    },
+    "hash": "a26ada87e851c43eccf8274d6a0f6be1b4eb3489c43a19346bd5e2340002bd52"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.167448",
+    "event_id": "analysis_1e0c16b5c076f0e4_end",
+    "metadata": {
+      "findings_count": 3,
+      "verification_count": 0
+    },
+    "hash": "0060280f7f42491e17f4212f64ba85da8c7d6aa80a39e33dc00342aefdb17a67"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.171511",
+    "event_id": "analysis_d383d4af8d8d8162",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\data\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "4d5e6503c8c0c7ce777dab321844d0ce4715aa4ec28b8c3df1ae431188bc8a16"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.177211",
+    "event_id": "analysis_d383d4af8d8d8162_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "f54b31c201ee72b9cf24d1b55233a55cc08ae6ce9a13c410274e9e0f54e74b9d"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.180287",
+    "event_id": "analysis_a9c8682bc67bd0ab",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\data\\etl.py",
+      "function_path": "main"
+    },
+    "hash": "d94980fd2bff61d3c534a7709f66ef14d5e97281c663e2635d07058f53b0fdea"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.238866",
+    "event_id": "analysis_a9c8682bc67bd0ab_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "83c8812f20a180582848880c194400050d7733110b7b79fb500d1b4ddd8ad4d7"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.242972",
+    "event_id": "analysis_6f7aae2b182231c3",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\data\\features.py",
+      "function_path": "main"
+    },
+    "hash": "4b0c6bf4e3aae15ce42646dc4bfa6954349025b2b0f8d27d81fa74a6f527052e"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.304260",
+    "event_id": "analysis_6f7aae2b182231c3_end",
+    "metadata": {
+      "findings_count": 5,
+      "verification_count": 0
+    },
+    "hash": "d70c227668bae21dcb6b4cbd4d6131a3eca8fdc9a91dd769fffe5b2d7e3e0b76"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.308224",
+    "event_id": "analysis_616f27f581b4da3e",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\data\\loader.py",
+      "function_path": "main"
+    },
+    "hash": "cab7b3f6a8f656d005bffe2a2b273754bcf0074742778050be2b57ddecf49c3d"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.470031",
+    "event_id": "analysis_616f27f581b4da3e_end",
+    "metadata": {
+      "findings_count": 6,
+      "verification_count": 0
+    },
+    "hash": "46d1359aa77592a0eadf0b353e915adb86182a63b944917a37dc047005c27a8d"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.473908",
+    "event_id": "analysis_0e69c4c5bf472b0f",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\data\\mask.py",
+      "function_path": "main"
+    },
+    "hash": "1a98b32ad39e17e5b39bd67b6c7b0dd316dd1b84fb323429110788d06606a57d"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.488335",
+    "event_id": "analysis_0e69c4c5bf472b0f_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "3b6b0a7b47e099ed226ee76f64e2020ecab6223bca04dc760529a4fcd2054ad2"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.492053",
+    "event_id": "analysis_ea03ffd0c031513c",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\data\\packer.py",
+      "function_path": "main"
+    },
+    "hash": "2988370a41696212331d31baeea411283f6572c723d9ee4d004352d8840660a7"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.506456",
+    "event_id": "analysis_ea03ffd0c031513c_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "273aa03267e700afedd81200505638d4620445bd69b1aa0740b2f4e8cba82de3"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.509911",
+    "event_id": "analysis_997028ea4ac2d00c",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\data\\repair.py",
+      "function_path": "main"
+    },
+    "hash": "4a9c02c511b7609ea44cdd7ab65d56cbe2620c36ff3b116beeccff47c6338a45"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.557594",
+    "event_id": "analysis_997028ea4ac2d00c_end",
+    "metadata": {
+      "findings_count": 4,
+      "verification_count": 0
+    },
+    "hash": "e9fcab5b6f3a534f5ac0813937d8b8b558e7eaa262a6b9d51ac375adc1a3d32b"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.561424",
+    "event_id": "analysis_bd4c0f5c9eef47bd",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\data\\validator.py",
+      "function_path": "main"
+    },
+    "hash": "f573dd3f3048a7eb9913e6f9e1befeef484761d02d587c23360a5da45a788cb8"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.597522",
+    "event_id": "analysis_bd4c0f5c9eef47bd_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "71124ea638a8487bac24d8074144cffdb31099a69934e9dd2e2625e4501b84d6"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.601087",
+    "event_id": "analysis_888c45b064d762df",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\engines\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "c210ff2c79b3f75f4fb032fbc72da497b4c80539178ee536c9897e10cdf5419b"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.606240",
+    "event_id": "analysis_888c45b064d762df_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "5bbec088b7dda9cbb07e8e8998228d12c41bba1b8784b626ff4be0bf97f268c9"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.609840",
+    "event_id": "analysis_f9d1de60fb91d121",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\engines\\base_engine.py",
+      "function_path": "main"
+    },
+    "hash": "846b67a7a4b15054b064d5fdf6ddbe1ab840792a7a2c0a0d15daa8affee29f9f"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.642788",
+    "event_id": "analysis_f9d1de60fb91d121_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "d9ab1493f9e82ee5bd83ea5ff99711ff048165ca6eb5603bebc7715949cafb22"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.647333",
+    "event_id": "analysis_53fa603011bc5810",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\engines\\dml_engine.py",
+      "function_path": "main"
+    },
+    "hash": "aa5ea1365e3e12dcdaeba74fd19dfb67303d28a007ca4a1fd7637e5a6de03745"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.672835",
+    "event_id": "analysis_53fa603011bc5810_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "08afb17568e75757fa39f357ac20539203b1d65f8716803725801759596d0275"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.676978",
+    "event_id": "analysis_2326cd69fbf14436",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\engines\\tinygrad_engine.py",
+      "function_path": "main"
+    },
+    "hash": "af5891b47925f549379cb0eb100fa8a4dc30b107f39c64a80de5f707a3c12e8f"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.690341",
+    "event_id": "analysis_2326cd69fbf14436_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "4e344c4eb04ede2bf793982c64016a0ec905df8cd8bde4605989227e530948eb"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.693944",
+    "event_id": "analysis_e840901ce0ad55cb",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\math_engine\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "a72f4aa8b8f7d657d9b0023bd4d8ebd0d9ff2f34d01294e3fad95246d7e823a4"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.699609",
+    "event_id": "analysis_e840901ce0ad55cb_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "e63f3a4d489ddc4accbfd88c5a7d7a2f620f47329dee4427c88fd5bb1aea0eac"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.703205",
+    "event_id": "analysis_5c0e9f3350a7f2b6",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\math_engine\\adalora_svd.py",
+      "function_path": "main"
+    },
+    "hash": "b624f67f6922fa3862218a8b2b5cd68ed0e3f6ae4f3550613c0ad66fbad7b566"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.718629",
+    "event_id": "analysis_5c0e9f3350a7f2b6_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "a0bd6afaa1c2602bb3e5bcabb3c28c3f309badadd300e7b71acd63c21a98bd46"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.722502",
+    "event_id": "analysis_ecc80e2c9bc2eacd",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\math_engine\\curriculum.py",
+      "function_path": "main"
+    },
+    "hash": "bb3ae39dee1d91b3ffea1c649b0413ae4a28d9a2d9e9f847d39e10de65bca309"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.735857",
+    "event_id": "analysis_ecc80e2c9bc2eacd_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "aff4945ea2a3b01548cfb71acce410dd482c0c74fe568cf4e9fcd4846f7e9e3e"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.740465",
+    "event_id": "analysis_c230255db5c3b19e",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\math_engine\\ewc.py",
+      "function_path": "main"
+    },
+    "hash": "bd111434c47b69a5ebb98ff3dd0d9250494086db5bc4533df6a29aa15ee65162"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.764376",
+    "event_id": "analysis_c230255db5c3b19e_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "236816597c1b8004a1f38571ad470313a61b129ebad0ba272d1274331d9437aa"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.770584",
+    "event_id": "analysis_207a7a4acc7e4bd5",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\math_engine\\hallucination.py",
+      "function_path": "main"
+    },
+    "hash": "01d0a87a2526817c2c1bfd3f8972681c11350a691735a41bea18149561a40373"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.785113",
+    "event_id": "analysis_207a7a4acc7e4bd5_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "df9076dab185b15471195bc1cabe18f1e6d597e327def36b55b821230865b1c5"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.790723",
+    "event_id": "analysis_7586d3677cef4a14",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\math_engine\\orpo_loss.py",
+      "function_path": "main"
+    },
+    "hash": "cd9d4d5d84a53ea2951f0dc01e054b3611e377f40f754f7e66f531dfc1a790bf"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.809209",
+    "event_id": "analysis_7586d3677cef4a14_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "d707fe63ef281bdbfddfe7204e386adbdf5819f81b30620c7ba3d29b1e6b54b5"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.814822",
+    "event_id": "analysis_f40e754aba896e04",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\solver\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "2d3d2c29c8191d902a553573001acaf92bce262c3f7423f857ae8e3e096d9c66"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.820500",
+    "event_id": "analysis_f40e754aba896e04_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "c0e823331cc8762c9730e83470137360e4e0b42396c2c36ec164723c42a80e89"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.824609",
+    "event_id": "analysis_768ca711a0cb4da2",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\solver\\auto_batch.py",
+      "function_path": "main"
+    },
+    "hash": "aa2288e8887996dc45cd951dc9c62beb3184af3634037110c864cec7242afc3b"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.835302",
+    "event_id": "analysis_768ca711a0cb4da2_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "d0648372b2e9d9497434e034c57f99c6284d018b5a7f515b248382f9b1c437b3"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.841617",
+    "event_id": "analysis_86d4711845df5d74",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\solver\\loftq_init.py",
+      "function_path": "main"
+    },
+    "hash": "4e0253dd2451e3bba686b61bc581d6ebc23f277384f17bb44d152fcad6dccbdb"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.858606",
+    "event_id": "analysis_86d4711845df5d74_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "4db43f3506d356c4592d2ff72ecdfcf3f4b3f12f4332877b8bdc42ca50d22062"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.864220",
+    "event_id": "analysis_3278a8eefb624de5",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\solver\\lr_scanner.py",
+      "function_path": "main"
+    },
+    "hash": "515d69e1bc2e1b7f949f4d6071c899737c880b729e3ce22e9c59a7d8d67ac562"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.878099",
+    "event_id": "analysis_3278a8eefb624de5_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "7478424df31cda68f9a45bc837099ce0b05d6ca78f6f37b335507308871013f5"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.882719",
+    "event_id": "analysis_52744bde1ea9b40f",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\solver\\vram_sympy.py",
+      "function_path": "main"
+    },
+    "hash": "779480551de61a63bd33d3ea3756d648de3579053672f15e28d617fa5fc59fc5"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.927904",
+    "event_id": "analysis_52744bde1ea9b40f_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "35c1e9808ecb1fd84272d614d4685563dae4e1973d0a12df28a1abaee5f66243"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.933492",
+    "event_id": "analysis_a10f15725f37f444",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\solver\\warmup_calc.py",
+      "function_path": "main"
+    },
+    "hash": "9b9b20cecc6b4cbd88e7e31f9350bdd20c9eeec02e075bfb068e7904adb9f21c"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.945901",
+    "event_id": "analysis_a10f15725f37f444_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "31f2207621bfdcf19803bb5b44869c49c138520015dfefee8eaf078488ed53e4"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.949488",
+    "event_id": "analysis_9ce7cf2a5e809fde",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\ui\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "0b41c9324dae20de74a50395b9e257450f157d6cae3ef35640d9695563e2d4d9"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:34.955687",
+    "event_id": "analysis_9ce7cf2a5e809fde_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "be85a14c02d974b4e2e1c6bdde92c996dd6283fd123b40e796f98b1664a5cd7f"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:34.960345",
+    "event_id": "analysis_b1d05f506c259a6e",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\core\\ui\\app.py",
+      "function_path": "main"
+    },
+    "hash": "c0c78fb4e23af1ea984db872cf03061956480b9586dfe166bdb1c9360be38aed"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:36.089775",
+    "event_id": "analysis_b1d05f506c259a6e_end",
+    "metadata": {
+      "findings_count": 3,
+      "verification_count": 0
+    },
+    "hash": "a69d6b0e67c013ad39d254412e4704df7234150324fedaca4538a20eed1ca4f6"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:36.094362",
+    "event_id": "analysis_d401a5422cf27214",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\make_tests.py",
+      "function_path": "main"
+    },
+    "hash": "83809b1df3a1e53458c126cef0e00d56e737bee5ed645737f397119a5cfc9537"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:36.105211",
+    "event_id": "analysis_d401a5422cf27214_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "e4001af460ab76735f80e6004dfdad79dda29caae96d45ca7a594102be2b5947"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:36.109847",
+    "event_id": "analysis_72d59f1162f5683b",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\orchestrator\\__init__.py",
+      "function_path": "main"
+    },
+    "hash": "69b9c5771724e941f8008e2c35877f920931a384b21694086d0677fb9a96bc8c"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:36.115664",
+    "event_id": "analysis_72d59f1162f5683b_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "1dd832bfb79a53aa2dd4c901f316b6801b157ef89187420e8019904a2c2704ce"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:36.120348",
+    "event_id": "analysis_93aa94a66ae09bee",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\orchestrator\\dispatcher.py",
+      "function_path": "main"
+    },
+    "hash": "ffbbd34c31c0d2787be602e6502599b4a16cb8967014c6344e53a00373c26816"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:36.144286",
+    "event_id": "analysis_93aa94a66ae09bee_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "0e6f54b9d9ad0e83430402a9cdb41e79e38480cc39e5602706a0df14c9cff522"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:36.148955",
+    "event_id": "analysis_df6a209d6f5e51d1",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\orchestrator\\eval_loop.py",
+      "function_path": "main"
+    },
+    "hash": "a07ab62524e1181474b66f12ab4ae79b4b6c4c34d63b20f1b7b5e6164879fde5"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:36.170495",
+    "event_id": "analysis_df6a209d6f5e51d1_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "b0fd225c99697c3c8ec3f33b5471d7cf91e77282b32e863361d227dc5fbb0376"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:36.175618",
+    "event_id": "analysis_0d11dd9de2a8a44f",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\orchestrator\\ipc_shared.py",
+      "function_path": "main"
+    },
+    "hash": "5602485198ce37dc783e51ab55313b45331f4ad5e20c474693b66de89dd1d2ac"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:36.198668",
+    "event_id": "analysis_0d11dd9de2a8a44f_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "844017f3df227975f9ce6c22de286eb466dcfea98ff69e86d7d9adf5db9de151"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:36.205844",
+    "event_id": "analysis_c9fb6c8ca71d1c9f",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\scripts\\setup_ggml.py",
+      "function_path": "main"
+    },
+    "hash": "e8e600581065d3a08e7d97f9ecf525dd58ac79a9d6c421114524eda418e070f7"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:36.219669",
+    "event_id": "analysis_c9fb6c8ca71d1c9f_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "e714b78a7a43fd88a426e243f4a465c3293babc0aab6de912a05c5a9fb7acd75"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:36.224640",
+    "event_id": "analysis_d2aa0ae55d9389dc",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\scripts\\verify_m1_adversarial_metrics.py",
+      "function_path": "main"
+    },
+    "hash": "154f64b64580e14ad5a39758b265e1f0da14f93f89638dac69c82e6154d3363d"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:36.255267",
+    "event_id": "analysis_d2aa0ae55d9389dc_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "319a7be861e04a2f7923347ce0d6cc19beed252d867379e760567df5a4d0e6bc"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:36.261417",
+    "event_id": "analysis_38e6ac9f5b7ab71f",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\scripts\\verify_m1_challenger_2_cli_ingestion.py",
+      "function_path": "main"
+    },
+    "hash": "b488c369b7fbcbc6cd0063953645d948244893a1021467bc8492f47714342a77"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:36.389698",
+    "event_id": "analysis_38e6ac9f5b7ab71f_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "4a386c8d9fc2ce32e407d7ef249b814f030ada6a3ebd6789a4d96ce2d8cb6671"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:36.394761",
+    "event_id": "analysis_576b25ed6864740f",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\tests\\conftest.py",
+      "function_path": "main"
+    },
+    "hash": "de984239eeecea5ab82fcbe606999b719dbefa9f41fc70f1cd46a42c496a3467"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:36.410189",
+    "event_id": "analysis_576b25ed6864740f_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "76298b407861f6910efce2f2425ae28e7f697e68be2609bb623af80ad4dde1d4"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:36.416529",
+    "event_id": "analysis_268307061351ddd8",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\tests\\stress_m1_challenger_2_harness.py",
+      "function_path": "main"
+    },
+    "hash": "1f1e884fccc3bcd793e34b8151fd82670b354671999a596dd57dc5217d419588"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:36.475471",
+    "event_id": "analysis_268307061351ddd8_end",
+    "metadata": {
+      "findings_count": 1,
+      "verification_count": 0
+    },
+    "hash": "99d016bd17df48ebb3f68d1b2095141def772bada897efb25ff08bf86ef0625e"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:36.480603",
+    "event_id": "analysis_7bb9e0e1dceb1da9",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\tests\\test_adversarial_m1_challenger.py",
+      "function_path": "main"
+    },
+    "hash": "8405218dcaa5794e1bb8e4f3de90cca9f746d505a2bf91b9dee4add5ade0fa18"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:36.663028",
+    "event_id": "analysis_7bb9e0e1dceb1da9_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "e32dfbe3dce235eb53f8379f20afdaa279a25891504e6972b44f0ea36ddab16e"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:36.669677",
+    "event_id": "analysis_10cc72136f2418f8",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\tests\\test_adversarial_m2_challenger.py",
+      "function_path": "main"
+    },
+    "hash": "c2128e5cdc5df82bac6ee417e94db78dddd51c196934da5e47813c2888d48f45"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:37.087497",
+    "event_id": "analysis_10cc72136f2418f8_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "09d48461f3aa54e048f7fc300a3bb4bb41f25099addba80c47128d6ee583da6c"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:37.092842",
+    "event_id": "analysis_05bebd4a298cc6f9",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\tests\\test_adversarial_tier5_hardening.py",
+      "function_path": "main"
+    },
+    "hash": "a3237653bc114fed93c6fa784825591c7bea5ef0aba1c09acada1de667538437"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:37.234683",
+    "event_id": "analysis_05bebd4a298cc6f9_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "f48e77732fba34490f0c04ed034603f270f5ed992f2e4317d777d9501f856628"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:37.239555",
+    "event_id": "analysis_be890a3ae816c1f0",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\tests\\test_bridge_auto_calibrator.py",
+      "function_path": "main"
+    },
+    "hash": "87ee9041719e18a49f255a1b9154b9590b43f5aafb82cbe82cf149a35a3a1c91"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:37.360442",
+    "event_id": "analysis_be890a3ae816c1f0_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "a608353383f4e1b3d75f6e4219dd5623b559ea864bbde1b2631a198774a8b3c6"
+  },
+  {
+    "event_type": "analysis_start",
+    "timestamp": "2026-09-02T08:04:37.367515",
+    "event_id": "analysis_acfef5a43a3e0925",
+    "metadata": {
+      "file_path": "D:\\Axiom-Forge\\tests\\test_bridge_canonical.py",
+      "function_path": "main"
+    },
+    "hash": "656aa7b7cc3a5c507884349fa9ee2be733c4d6870a5412cc2bf207320ea59e5b"
+  },
+  {
+    "event_type": "analysis_end",
+    "timestamp": "2026-09-02T08:04:37.412940",
+    "event_id": "analysis_acfef5a43a3e0925_end",
+    "metadata": {
+      "findings_count": 0,
+      "verification_count": 0
+    },
+    "hash": "2fb58296c3e0655d6c85130845ba3d7fbc446a15122b3ccbb8db2bd62de0f268"
+  }
+]
