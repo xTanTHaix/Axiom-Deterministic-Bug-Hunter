@@ -282,7 +282,7 @@ python examples/usage_examples.py
 
 ## 💖 Support & Donations
 
-If this project helped improve your test coverage, save debugging time, and streamline your Python testing workflow, consider supporting development[cite: 1]:
+If this project helped improve your test coverage, save debugging time, and streamline your Python testing workflow, consider supporting development:
 
 <br>
 
