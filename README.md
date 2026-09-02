@@ -4,6 +4,15 @@
 
 **100% Deterministic · Works offline · Scans any Python project**
 
+---
+
+## Patch Notes: The "Token-Burn Rehabilitation" Update
+Dedicated to anyone who just woke up in a cold sweat from their rogue sub-agent nightmare.
+Feel free to keep manually dissecting 80++ line bloated stack traces while unconstrained agent loops incinerate your credit card limit. We’ll let the community suffer a little longer—because until your production is on fire, this tool looks like overkill.
+Once the pain gets real, you'll know where to find the silver bullet.💎🌙
+
+---
+
 <br>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
