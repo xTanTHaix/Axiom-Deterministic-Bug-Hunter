@@ -1,6 +1,26 @@
 # ⚡Axiom Aegis v3.0 — Pure Deterministic Bug Hunter
 
-> **100% Deterministic · No AI required · Works offline · Scans any Python project**
+<div align="center">
+
+**100% Deterministic · Works offline · Scans any Python project**
+
+<br>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![Version](https://img.shields.io/badge/version-v3.0.0-emerald.svg)](https://github.com/xTanTHaix/Axiom-Deterministic-Bug-Hunter/releases)
+[![AI-Free](https://img.shields.io/badge/AI-Zero%20AI%20%7C%20Deterministic-purple.svg)](#)
+[![Tests](https://img.shields.io/badge/tests-pytest%20passing-brightgreen.svg)](#)
+
+</div>
+
+---
+## ❓Why Deterministic Bug Hunting?
+
+| 🎯 The Flaw of Random Fuzzing | 🧪 Engineered Predictability |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/4d25af15-3418-4c13-9951-2fc0de360bdc" alt="Probabilistic Fuzzing" width="100%"> | <img src="https://github.com/user-attachments/assets/be29955a-06cc-49e7-997b-841cdd001413" alt="Axiom Predictability" width="100%"> |
+| *Random inputs lack contextual memory* | *Capture, Sequence, and Reproduce 100%* |
 
 ---
 
@@ -11,11 +31,18 @@ It uses a 5-layer pipeline to detect bugs, verify vulnerabilities, and suggest f
 
 ---
 
+| 📊 The Hunting Ground Matrix | 🧰 The Hunter's Utility Belt |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/46ce442e-1c75-4630-bfe6-b1df01d19935" alt="Hunting Matrix" width="100%"> | <img src="https://github.com/user-attachments/assets/b87403f4-7665-48d6-acec-ce54e01152ea" alt="Utility Belt" width="100%"> |
+| *Comparing probabilistic vs. deterministic* | *State-Tracker, Replay Hook, and Seed Sequencer* |
+
+---
+
 ## 🚀Quickstart
 
 ```bash
 
-pip install git+https://github.com/xTanTHaix/-Axiom-Aegis-The-Deterministic-Code-Analyzer.git
+pip install git+https://github.com/xTanTHaix/Axiom-Deterministic-Bug-Hunter.git
 
 # 1. Analyze a single file
 axiom analyze path/to/file.py
@@ -45,52 +72,40 @@ axiom --version
 axiom --help
 axiom analyze --help
 ```
+---
+
+| ⏱️ The Replay Blueprint | 📑 Anatomy of a Bug Report |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/e881679f-d894-4520-a8de-54a816f08adf" alt="Replay Blueprint" width="100%"> | <img src="https://github.com/user-attachments/assets/c13a0719-debd-42cf-bb1f-e4f2b8e1e80a" alt="Bug Report Anatomy" width="100%"> |
+| *Step-by-step frame inspection to crash* | *Actionable reports with exact replay commands* |
 
 ---
 
 ## 🔍5-Layer Architecture
 
-```
-Layer 1: AST Sentinel & Pre-Filter
-  └─ Tree-sitter AST parsing & syntax validation
-  └─ Dangerous call detection (eval, exec, os.popen, subprocess shell=True)
-  └─ Output: ASTNode tree, BugFinding list
-
-Layer 2: Compilation-Free Slicing & Call Graph
-  └─ Function-level code slicing without compilation
-  └─ Heuristic type inference
-  └─ Call graph construction
-  └─ Output: SlicingContext, CallGraph
-
-Layer 3: Static Rule Engine & Flow Analyzer
-  └─ MicroAnalyzer: line-level regex rules (unchecked unpacking, type coercion, bare except)
-  └─ MacroAnalyzer: structural patterns (SQL injection, hardcoded secrets, resource leaks, lock scopes)
-  └─ CriticConsensusResolver: multi-analyzer deduplication & conflict resolution
-  └─ PatternMiner: code smell and control-flow anomaly detection
-  └─ CrossModuleAnalyzer: cross-module type and contract consistency
-  └─ Output: Verified BugFinding list with CWE references
-
-Layer 4: Dynamic Verification & Fix Generator
-  └─ MockGenerator: auto-generates pytest test cases for detected bugs
-  └─ DynamicVerifier: executes generated test cases safely
-  └─ RemediationLoop: retry loop for test failures
-  └─ FixGenerator: template-based deterministic fix suggestions
-  └─ BenchmarkAnalyzer: complexity, memory, and resource usage analysis
-  └─ Output: VerificationResult list, FixSuggestion list
-
-Layer 5: Audit Chain & Telemetry
-  └─ MerkleChain: cryptographic tamper-evident audit log
-  └─ SQLiteSink: persistent event storage (bug_evidence.db)
-  └─ RuleLogger: pattern learning and statistics reporting
-  └─ AuditChain: top-level audit event coordinator
-  └─ Output: Audit report JSON, bug_evidence.db
-```
+| Layer | Component | Core Functionality |
+| :---: | :--- | :--- |
+| **L1** | **AST Sentinel** | Tree-sitter AST & Pre-Filter |
+| **L2** | **Slicing Engine** | Compilation-Free Slicing & Call Graph |
+| **L3** | **Static Rule Engine** | Micro/Macro Analyzers & CWE Mapping |
+| **L4** | **Dynamic Verifier** | Auto-pytest & Deterministic Fixes |
+| **L5** | **Audit Chain** | Merkle Audit Log & SQLite Sink |
 
 ---
 
-## 🏗️Project Structure
+| 📉 Frustration to Resolution | 🛡️ The Deterministic Guarantee |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/180bc56f-e0c1-429b-8f07-08a5552ffafc" alt="Resolution Graph" width="100%"> | <img src="https://github.com/user-attachments/assets/eae208e8-1a0c-4dd2-bf52-bf9699923660" alt="Deterministic Guarantee" width="100%"> |
+| *Eliminating "works on my machine" friction* | *Equip the framework. Hunt deterministically.* |
 
-```
+---
+
+## 🏗️ Project Structure
+
+<details>
+<summary>📂 <b>Click to expand full project structure (All directories & files)</b></summary>
+
+```text
 axiom-aegis/
 ├── axiom/                          # Main package
 │   ├── __init__.py                 # Public API exports
@@ -162,42 +177,48 @@ axiom-aegis/
 └── .env.example                    # Sample environment settings
 ```
 
+</details>
+
 ---
+ 
+## 💕 Public API
 
-## 💕Public API
+<details>
+<summary><b>⚡ Click to expand CLI usage & execution examples</b></summary>
 
-```python
-import axiom
+```bash
+pip install git+[https://github.com/xTanThaix/Axiom-Deterministic-Bug-Hunter.git](https://github.com/xTanThaix/Axiom-Deterministic-Bug-Hunter.git)
 
-# Layer 1 — AST Sentinel
-sentinel = axiom.ASTSentinel()
-root, findings = sentinel.parse_file("path/to/file.py")
+# 1. Analyze a single file
+axiom analyze path/to/file.py
 
-# Layer 2 — Compilation-Free Slicing
-slicer = axiom.CompilationFreeSlicer()
-context = slicer.build(code, "file.py")
+# 2. Analyze an entire project directory recursively
+axiom analyze path/to/project/
 
-# Layer 3 — Static Rule Engine
-engine = axiom.StaticRuleEngine()
-result = engine.analyze_file("path/to/file.py")
-# result is a dict with keys: 'findings', 'critical_count', 'high_count', etc.
+# 3. Fast dry-run mode (AST + static rules only)
+axiom analyze path/to/file.py --dry-run
 
-# Layer 3 — Pattern Miner
-miner = axiom.PatternMiner(root, "file.py")
-patterns = miner.mine_patterns()
+# 4. Save analysis results to a JSON file
+axiom analyze path/to/project/ -o audit_results.json
 
-# Layer 4 — Dynamic Verification
-verifier = axiom.DynamicVerifier()
-vresults = verifier.verify_all(result['findings'], code, "file.py")
+# 5. Launch interactive GUI Dashboard
+axiom ui
+axiom ui path/to/project/
 
-# Layer 4 — Fix Suggestions
-fixer = axiom.FixGenerator()
-suggestions = fixer.generate_fixes(code)
+# 6. Start Live Watch Mode (auto-scan upon file changes)
+axiom watch
+axiom watch path/to/project/
 
-# Layer 5 — Audit Chain
-audit = axiom.AuditChain()
-event_id = audit.log_analysis_start("file.py", "")
+# 7. Print tamper-evident audit report
+axiom report
+
+# 8. Show version and help
+axiom --version
+axiom --help
+axiom analyze --help
 ```
+
+</details>
 
 ---
 
@@ -213,6 +234,13 @@ event_id = audit.log_analysis_start("file.py", "")
 | `axiom report` | Output tamper-evident audit report from SQLite |
 | `axiom --version` | Display version number |
 | `axiom --help` | Display general help |
+
+---
+
+| 📉 Replacing Frustration with Predictability | 🛡️ The Deterministic Guarantee |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/79e32a43-077d-4301-bdd0-b78241ad5a92" alt="Replacing Frustration" width="100%"> | <img src="https://github.com/user-attachments/assets/1959990f-6e1e-4fcc-b52a-861d9d97259d" alt="The Deterministic Guarantee" width="100%"> |
+| *Eliminating "works on my machine" friction* | *Equip the framework. Hunt deterministically.* |
 
 ---
 
@@ -245,7 +273,7 @@ python examples/usage_examples.py
 
 ---
 
-## Requirements
+## 🪢 Requirements
 
 - Python 3.10+
 - Dependencies listed in `requirements.txt` / `pyproject.toml`
@@ -254,9 +282,15 @@ python examples/usage_examples.py
 
 ## 💖 Support & Donations
 
-If this project helped improve your test coverage, save debugging time, and streamline your Python testing workflow, consider supporting development:
+If this project helped improve your test coverage, save debugging time, and streamline your Python testing workflow, consider supporting development[cite: 1]:
 
-- **Ko-fi**: [https://ko-fi.com/xtanthaix](https://ko-fi.com/xtanthaix)
+<br>
+
+<div align="center">
+
+[![Ko-fi](https://img.shields.io/badge/Support_on_Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/xtanthaix)
+
+</div>
 
 ---
 
