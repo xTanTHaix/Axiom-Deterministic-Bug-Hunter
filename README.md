@@ -238,8 +238,8 @@ axiom analyze --help
 | `axiom analyze <target>` | Analyze file or directory |
 | `axiom analyze <target> --dry-run` | Run AST & static rules only (fast) |
 | `axiom analyze <target> -o report.json` | Export findings to JSON report |
-| `axiom ui [target]` | Launch GUI Dashboard & Live Inspector |
-| `axiom watch [target]` | Start Live Watch mode on target folder |
+| `axiom ui` | Launch GUI Dashboard & Live Inspector |
+| `axiom watch` | Start Live Watch mode on target folder |
 | `axiom report` | Output tamper-evident audit report from SQLite |
 | `axiom --version` | Display version number |
 | `axiom --help` | Display general help |
