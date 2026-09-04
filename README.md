@@ -49,9 +49,13 @@ It uses a 5-layer pipeline to detect bugs, verify vulnerabilities, and suggest f
 
 ## 🚀Quickstart
 
-```bash
-
+# Option 1: Install directly via pip
 pip install git+https://github.com/xTanTHaix/Axiom-Deterministic-Bug-Hunter.git
+# Option 2: Local development / Cloned repository
+git clone https://github.com/xTanTHaix/Axiom-Deterministic-Bug-Hunter.git
+cd Axiom-Deterministic-Bug-Hunter
+pip install -e .
+# Note: You can also use `python -m axiom` in place of `axiom` if not in PATH.
 
 # 1. Analyze a single file
 axiom analyze path/to/file.py
@@ -189,14 +193,14 @@ axiom-aegis/
 </details>
 
 ---
- 
+
 ## 💕 Public API
 
 <details>
 <summary><b>⚡ Click to expand CLI usage & execution examples</b></summary>
 
 ```bash
-pip install git+[https://github.com/xTanThaix/Axiom-Deterministic-Bug-Hunter.git](https://github.com/xTanThaix/Axiom-Deterministic-Bug-Hunter.git)
+pip install git+https://github.com/xTanTHaix/Axiom-Deterministic-Bug-Hunter.git
 
 # 1. Analyze a single file
 axiom analyze path/to/file.py
@@ -238,8 +242,8 @@ axiom analyze --help
 | `axiom analyze <target>` | Analyze file or directory |
 | `axiom analyze <target> --dry-run` | Run AST & static rules only (fast) |
 | `axiom analyze <target> -o report.json` | Export findings to JSON report |
-| `axiom ui` | Launch GUI Dashboard & Live Inspector |
-| `axiom watch` | Start Live Watch mode on target folder |
+| `axiom ui [target]` | Launch GUI Dashboard & Live Inspector |
+| `axiom watch [target]` | Start Live Watch mode on target folder |
 | `axiom report` | Output tamper-evident audit report from SQLite |
 | `axiom --version` | Display version number |
 | `axiom --help` | Display general help |
