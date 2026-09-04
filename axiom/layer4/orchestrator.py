@@ -85,7 +85,7 @@ def run_analysis(
             ast_root, ast_findings = ast_sentinel.parse_file(str(file_path))
             
             # Layer 2: Slicing (sample functions)
-            with open(file_path) as f:
+            with open(file_path, 'r', encoding='utf-8') as f:
                 code = f.read()
             
             import re
