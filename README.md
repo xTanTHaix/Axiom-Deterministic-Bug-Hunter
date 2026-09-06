@@ -49,15 +49,28 @@ It uses a 5-layer pipeline to detect bugs, verify vulnerabilities, and suggest f
 
 ## 🚀Quickstart
 ```
-# Option 1: Install directly via pip
+<details open>
+  <summary>🚀 <strong>Quickstart & Installation</strong></summary>
+  <p style="margin: 8px 0; font-size: 0.9rem;">Setup instructions and command-line usage for Axiom-Deterministic-Bug-Hunter:</p>
+
+  <!-- Section 1: Installation -->
+  <details style="margin-left: 16px; margin-top: 6px;">
+    <summary>📦 <em>Installation Methods</em></summary>
+    <pre style="background: var(--code-bg, #161b22); padding: 8px; margin-top: 4px; border-radius: 4px;"><code># Option 1: Install directly via pip
 pip install git+https://github.com/xTanTHaix/Axiom-Deterministic-Bug-Hunter.git
+
 # Option 2: Local development / Cloned repository
 git clone https://github.com/xTanTHaix/Axiom-Deterministic-Bug-Hunter.git
 cd Axiom-Deterministic-Bug-Hunter
 pip install -e .
-# Note: You can also use `python -m axiom` in place of `axiom` if not in PATH.
 
-# 1. Analyze a single file
+# Note: You can also use `python -m axiom` in place of `axiom` if not in PATH.</code></pre>
+  </details>
+
+  <!-- Section 2: Code Analysis -->
+  <details style="margin-left: 16px; margin-top: 6px;">
+    <summary>🔍 <em>Code Analysis Execution</em></summary>
+    <pre style="background: var(--code-bg, #161b22); padding: 8px; margin-top: 4px; border-radius: 4px;"><code># 1. Analyze a single file
 axiom analyze path/to/file.py
 
 # 2. Analyze an entire project directory recursively
@@ -67,23 +80,33 @@ axiom analyze path/to/project/
 axiom analyze path/to/file.py --dry-run
 
 # 4. Save analysis results to a JSON file
-axiom analyze path/to/project/ -o audit_results.json
+axiom analyze path/to/project/ -o audit_results.json</code></pre>
+  </details>
 
-# 5. Launch interactive GUI Dashboard
+  <!-- Section 3: UI & Live Watch -->
+  <details style="margin-left: 16px; margin-top: 6px;">
+    <summary>🛡️ <em>GUI Dashboard & Live Watch Engine</em></summary>
+    <pre style="background: var(--code-bg, #161b22); padding: 8px; margin-top: 4px; border-radius: 4px;"><code># 5. Launch interactive GUI Dashboard
 axiom ui
 axiom ui path/to/project/
 
 # 6. Start Live Watch Mode (auto-scan upon file changes)
 axiom watch
-axiom watch path/to/project/
+axiom watch path/to/project/</code></pre>
+  </details>
 
-# 7. Print tamper-evident audit report
+  <!-- Section 4: Audit & Help -->
+  <details style="margin-left: 16px; margin-top: 6px;">
+    <summary>⚙️ <em>Audit Reports & Help Utility</em></summary>
+    <pre style="background: var(--code-bg, #161b22); padding: 8px; margin-top: 4px; border-radius: 4px;"><code># 7. Print tamper-evident audit report
 axiom report
 
 # 8. Show version and help
 axiom --version
 axiom --help
-axiom analyze --help
+axiom analyze --help</code></pre>
+  </details>
+</details>
 ```
 ---
 
