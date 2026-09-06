@@ -118,8 +118,6 @@ axiom analyze --help
 ```
 </details>
 
----
-
 <summary>📂 <b>Click to expand full project structure (All directories & files)</b></summary>
 
 ```text
