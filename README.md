@@ -47,30 +47,28 @@ It uses a 5-layer pipeline to detect bugs, verify vulnerabilities, and suggest f
 
 ---
 
-## 🚀Quickstart
-```
+## 🚀 Quickstart
+
 <details open>
-  <summary>🚀 <strong>Quickstart & Installation</strong></summary>
+  <summary>🚀 <strong>Quickstart &amp; Installation</strong></summary>
   <p style="margin: 8px 0; font-size: 0.9rem;">Setup instructions and command-line usage for Axiom-Deterministic-Bug-Hunter:</p>
 
-  <!-- Section 1: Installation -->
   <details style="margin-left: 16px; margin-top: 6px;">
     <summary>📦 <em>Installation Methods</em></summary>
-    <pre style="background: var(--code-bg, #161b22); padding: 8px; margin-top: 4px; border-radius: 4px;"><code># Option 1: Install directly via pip
-pip install git+https://github.com/xTanTHaix/Axiom-Deterministic-Bug-Hunter.git
+    <pre style="background: var(--code-bg, rgba(110, 118, 129, 0.1)); padding: 8px; margin-top: 4px; border-radius: 4px;"><code># Option 1: Install directly via pip
+pip install git+[https://github.com/xTanTHaix/Axiom-Deterministic-Bug-Hunter.git](https://github.com/xTanTHaix/Axiom-Deterministic-Bug-Hunter.git)
 
 # Option 2: Local development / Cloned repository
-git clone https://github.com/xTanTHaix/Axiom-Deterministic-Bug-Hunter.git
+git clone [https://github.com/xTanTHaix/Axiom-Deterministic-Bug-Hunter.git](https://github.com/xTanTHaix/Axiom-Deterministic-Bug-Hunter.git)
 cd Axiom-Deterministic-Bug-Hunter
 pip install -e .
 
 # Note: You can also use `python -m axiom` in place of `axiom` if not in PATH.</code></pre>
   </details>
 
-  <!-- Section 2: Code Analysis -->
   <details style="margin-left: 16px; margin-top: 6px;">
     <summary>🔍 <em>Code Analysis Execution</em></summary>
-    <pre style="background: var(--code-bg, #161b22); padding: 8px; margin-top: 4px; border-radius: 4px;"><code># 1. Analyze a single file
+    <pre style="background: var(--code-bg, rgba(110, 118, 129, 0.1)); padding: 8px; margin-top: 4px; border-radius: 4px;"><code># 1. Analyze a single file
 axiom analyze path/to/file.py
 
 # 2. Analyze an entire project directory recursively
@@ -83,10 +81,9 @@ axiom analyze path/to/file.py --dry-run
 axiom analyze path/to/project/ -o audit_results.json</code></pre>
   </details>
 
-  <!-- Section 3: UI & Live Watch -->
   <details style="margin-left: 16px; margin-top: 6px;">
-    <summary>🛡️ <em>GUI Dashboard & Live Watch Engine</em></summary>
-    <pre style="background: var(--code-bg, #161b22); padding: 8px; margin-top: 4px; border-radius: 4px;"><code># 5. Launch interactive GUI Dashboard
+    <summary>🛡️ <em>GUI Dashboard &amp; Live Watch Engine</em></summary>
+    <pre style="background: var(--code-bg, rgba(110, 118, 129, 0.1)); padding: 8px; margin-top: 4px; border-radius: 4px;"><code># 5. Launch interactive GUI Dashboard
 axiom ui
 axiom ui path/to/project/
 
@@ -95,10 +92,9 @@ axiom watch
 axiom watch path/to/project/</code></pre>
   </details>
 
-  <!-- Section 4: Audit & Help -->
   <details style="margin-left: 16px; margin-top: 6px;">
-    <summary>⚙️ <em>Audit Reports & Help Utility</em></summary>
-    <pre style="background: var(--code-bg, #161b22); padding: 8px; margin-top: 4px; border-radius: 4px;"><code># 7. Print tamper-evident audit report
+    <summary>⚙️ <em>Audit Reports &amp; Help Utility</em></summary>
+    <pre style="background: var(--code-bg, rgba(110, 118, 129, 0.1)); padding: 8px; margin-top: 4px; border-radius: 4px;"><code># 7. Print tamper-evident audit report
 axiom report
 
 # 8. Show version and help
@@ -107,7 +103,7 @@ axiom --help
 axiom analyze --help</code></pre>
   </details>
 </details>
-```
+
 ---
 
 | ⏱️ The Replay Blueprint | 📑 Anatomy of a Bug Report |
