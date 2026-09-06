@@ -51,7 +51,7 @@ It uses a 5-layer pipeline to detect bugs, verify vulnerabilities, and suggest f
 
 ## 🚀 Quickstart
 
-<details open>
+<details>
 <summary>🚀 <b>Quickstart & Installation Guide</b></summary>
 
 ```bash
