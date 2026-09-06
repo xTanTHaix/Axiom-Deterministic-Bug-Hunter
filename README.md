@@ -106,6 +106,8 @@ axiom analyze --help</code></pre>
 
 ---
 
+---
+
 | ⏱️ The Replay Blueprint | 📑 Anatomy of a Bug Report |
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/e881679f-d894-4520-a8de-54a816f08adf" alt="Replay Blueprint" width="100%"> | <img src="https://github.com/user-attachments/assets/c13a0719-debd-42cf-bb1f-e4f2b8e1e80a" alt="Bug Report Anatomy" width="100%"> |
