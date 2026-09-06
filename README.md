@@ -91,8 +91,8 @@ axiom --version
 axiom --help
 axiom analyze --help
 ```
----
-
+</details>
+  
 ---
 
 | ⏱️ The Replay Blueprint | 📑 Anatomy of a Bug Report |
