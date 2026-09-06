@@ -197,6 +197,7 @@ axiom-aegis/
 ## 💕 Public API
 
 <details>
+  
 <summary><b>⚡ Click to expand CLI usage & execution examples</b></summary>
 
 ```bash
@@ -230,7 +231,6 @@ axiom --version
 axiom --help
 axiom analyze --help
 ```
-
 </details>
 
 ---
