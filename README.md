@@ -116,7 +116,7 @@ axiom analyze --help
 ## 🏗️ Project Structure
 
 ```
-</details>
+<details>
 
 <summary>📂 <b>Click to expand full project structure (All directories & files)</b></summary>
 
