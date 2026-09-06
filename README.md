@@ -48,7 +48,7 @@ It uses a 5-layer pipeline to detect bugs, verify vulnerabilities, and suggest f
 ---
 
 ## 🚀Quickstart
-
+```
 # Option 1: Install directly via pip
 pip install git+https://github.com/xTanTHaix/Axiom-Deterministic-Bug-Hunter.git
 # Option 2: Local development / Cloned repository
