@@ -1,3 +1,14 @@
+> [!WARNING]
+> ### 🚨 PROJECT DEPRECATED & SUPERSEDED
+> **Axiom Aegis v3.0 has reached End-of-Life (EOL) and is no longer actively maintained.**  
+> This project has been fully re-architected and superseded by the next-generation engine:  
+> 
+> 👉 **[Axiom-Aegis-Veritas (Official Successor Repository)](https://github.com/xTanTHaix/Axiom-Aegis-Veritas)**
+> 
+> *Axiom-Aegis-Veritas introduces an 8-layer formal verification pipeline (CST Merkle caching, Octagon DBM, Dual SMT Consensus, DPOR Concurrency scheduling, PEP 695 Type Invariants, and Layer 8 BLAKE2b Cryptographic Attestation Seal). Please migrate to the new repository.*
+
+---
+
 # ⚡Axiom Aegis v3.0 — Pure Deterministic Bug Hunter
 
 <div align="center">
